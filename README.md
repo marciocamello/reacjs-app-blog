@@ -24,23 +24,23 @@ After forking this project in `Github`, run these commands:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress-example-todomvc.git
+git clone https://github.com/marciocamello/reacjs-app-blog.git
 
 ## cd into the cloned repo
-cd cypress-example-todomvc
+cd reacjs-app-blog
 
 ## install the node_modules
-npm install
+yarn
 
 ## start the local webserver
-npm start
+yarn start
 ```
 
-The `npm start` script will spawn a webserver on port `8888` which hosts the TodoMVC app.
+The `yarn start` script will spawn a webserver on port `3000` which hosts the React Blog app.
 
-You can verify this by opening your browser and navigating to: [`http://localhost:8888`](http://localhost:8888)
+You can verify this by opening your browser and navigating to: [`http://localhost:3000`](http://localhost:3000)
 
-You should see the TodoMVC app up and running. We are now ready to run Cypress tests.
+You should see the React Blog app up and running. We are now ready to run Cypress tests.
 
 ### 3. Add the project to Cypress
 
